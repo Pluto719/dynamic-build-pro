@@ -5,7 +5,7 @@
     "forceConsistentCasingInFileNames": true,     /*确保导入中的大小写正确*/
     "allowSyntheticDefaultImports":true,  //允许从没有默认导出的文件引用文件   
     "strict": true,                                      
-    "skipLibCheck": false,//跳过所有声明文件的类型检查
+    "skipLibCheck": true,//跳过所有声明文件的类型检查
     "jsx": "react-jsx",      
     "declaration": true,  
     "allowJs": true,    

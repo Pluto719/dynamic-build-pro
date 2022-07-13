@@ -2,7 +2,10 @@
   "name": "dynamic-build-pro",
   "version": "1.0.0",
   "description": "动态构建",
-  "keywords": ["react","dynamic"],
+  "keywords": [
+    "react",
+    "dynamic"
+  ],
   "main": "src/index.js",
   "module": "es/index.js",
   "types": "es/index.d.ts",
@@ -24,18 +27,20 @@
     "email": "1278098735@qq.com"
   },
   "repository": {
-    "type":"git",
+    "type": "git",
     "url": "https://github.com/Pluto719/dynamic-build-pro"
   },
   "license": "ISC",
   "dependencies": {
+    "father": "^2.30.21",
     "react": "17.x",
     "react-dom": "17.x"
   },
   "devDependencies": {
-    "father-build": "^1.22.3",
-    "typescript": "^4.7.4",
     "@types/react": "^18.0.14",
-    "@types/react-dom": "^18.0.0"
+    "@types/react-dom": "^18.0.0",
+    "babel-plugin-import": "^1.13.5",
+    "father-build": "^1.22.3",
+    "typescript": "^4.7.4"
   }
 }
