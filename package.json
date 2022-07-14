@@ -6,7 +6,7 @@
     "react",
     "dynamic"
   ],
-  "main": "src/index.js",
+  "main": "es/index.js",
   "module": "es/index.js",
   "types": "es/index.d.ts",
   "scripts": {
@@ -15,7 +15,8 @@
     "doc:deploy": "father doc deploy",
     "build": "father build",
     "test": "father test",
-    "test:coverage": "father test --coverage"
+    "test:coverage": "father test --coverage",
+    "publish": "npm version patch && npm publish"
   },
   "files": [
     "es",

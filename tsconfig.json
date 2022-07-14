@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",       
+    "target": "esnext",       
     "module": "esnext",                            
     "forceConsistentCasingInFileNames": true,     /*确保导入中的大小写正确*/
     "allowSyntheticDefaultImports":true,  //允许从没有默认导出的文件引用文件   
     "strict": true,                                      
     "skipLibCheck": true,//跳过所有声明文件的类型检查
-    "jsx": "react-jsx",      
+    "jsx": "react",      
     "declaration": true,  
     "allowJs": true,    
     "checkJs": true,    

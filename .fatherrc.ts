@@ -11,11 +11,11 @@ export default {
     //入口
     entry:'es/index.ts',
     //配置按需引入
-    extraBabelPlugins: [
-        ['babel-plugin-import', {
-          libraryName: 'antd',
-          libraryDirectory: 'es',
-          style: true,
-        }],
-      ],
+    // extraBabelPlugins: [
+    //     ['babel-plugin-import', {
+    //       libraryName: 'antd',
+    //       libraryDirectory: 'es',
+    //       style: true,
+    //     }],
+    //   ],
 }
